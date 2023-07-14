@@ -3,11 +3,11 @@ import numpy as np
 from shapes import Shape
 
 # Data for plotting
-#t = np.arange(0.0, 4.0, 0.01)
-#s = 1 + np.sin(1 * np.pi * t)
+# t = np.arange(0.0, 4.0, 0.01)
+# s = 1 + np.sin(1 * np.pi * t)
 
-t = [0,1,2,3,4,5,6,7,8,9]
-s = [0,2,4,6,10,10,12,14,16,4]
+t = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+s = [0, 2, 4, 6, 10, 10, 12, 14, 16, 4]
 
 shape1 = Shape(t, s)
 
@@ -26,16 +26,13 @@ shape3 = Shape(x, y)
 x = []
 y = []
 for i in range(200):
-       x.append(i/100)
-       y.append((i/100)**2)
+    x.append(i / 100)
+    y.append((i / 100) ** 2)
 shape4 = Shape(x, y)
 
-
-x = [20, 21, 22, 24, 26,   28, 30, 31, 32]
+x = [20, 21, 22, 24, 26, 28, 30, 31, 32]
 y = [20, 25, 21, 22, 22, 22, 21, 25, 20]
 shape5 = Shape(x, y)
-
-
 
 # shape6 = Shape([5,5], [1,5])
 # shape7 = Shape(
@@ -60,4 +57,3 @@ ax.set(xlabel='time (s)', ylabel='voltage (mV)',
 
 fig.savefig("test.png")
 plt.show()
-
