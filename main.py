@@ -19,7 +19,7 @@ shape2 = Shape(x, y)
 
 t = np.arange(0.0, 2.0 * np.pi, 0.01)
 y = np.sin(t)
-x = np.cos(t) + 5
+x = np.cos(t) + 7
 
 shape3 = Shape(x, y)
 
